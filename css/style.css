@@ -1,0 +1,109 @@
+/* universal setting */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: rgb(26, 26, 26);
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+}
+
+/* header and nav */
+
+header {
+  position: fixed;
+  top: 0px;
+  border-bottom: 1px solid seashell;
+  background-color: rgb(26, 26, 26);
+  height: 69px;
+  width: 100%;
+  z-index: 50;
+}
+
+#logo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+header ul {
+  text-align: right;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+header ul li a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* main section */
+
+main, footer {
+  position: relative;
+  top: 69px;
+}
+
+/* mission */
+
+#mission {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1200px;
+  min-height: 700px;
+  margin: 0 auto;
+  background-size: cover;
+  background-image: url('../images/img-mission-background.jpg');
+}
+
+#missionText {
+  background-color: rgb(26, 26, 26);
+  padding: 20px 0px;
+}
+
+#missionText h2, #missionText h4 {
+  width: 100%;
+  margin: 0px;
+}
+
+#missionText h2 {
+  padding: 5px 0px;
+}
+
+#missionText h4 {
+  padding-top: 15px;
+}
+
+/* featuredTea */
+
+#featuredTea {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#tilesContainer {
+  display: felx;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#tilesContainer img {
+  
+}
