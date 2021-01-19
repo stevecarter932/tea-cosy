@@ -99,11 +99,18 @@ main, footer {
 }
 
 #tilesContainer {
-  display: felx;
+  display: inline-flex;
   width: 100%;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-#tilesContainer img {
-  
+#tilesContainer .individualTile img {
+  height: 200px;
+  width: 300px;
 }
+
+#tilesContainer h4 {
+  margin-top: 10px;
+}
+
