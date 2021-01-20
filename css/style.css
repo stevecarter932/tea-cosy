@@ -96,6 +96,7 @@ main, footer {
 #featuredTea {
   width: 1000px;
   margin: 0 auto;
+  margin-top: 75px;
 }
 
 #tilesContainer {
@@ -114,3 +115,54 @@ main, footer {
   margin-top: 10px;
 }
 
+/* locations */
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 75px;
+  background-image: url('../images/img-locations-background.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
+#outerLocationsContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#outerLocationsContainer h2 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#locationsContainer {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.individualLocation {
+  min-width: 300px;
+  background-color: black;
+  margin: 15px 20px;
+}
+
+.individualLocation p {
+  padding: 10px 0px;
+}
+
+/* Footer */
+
+#footerCopyright {
+  text-align: left;
+}
+
+#footerCopyright h5 {
+  margin: 50px 20px;
+  padding-bottom: 20px;
+}
